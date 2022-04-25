@@ -11,7 +11,7 @@ function About(props) {
             <h2>About Me</h2>
                 <h3>
                     Hi, I'm Jordan McLean, a full stack software engineer! I'm New York based, highly motivated, and striving to
-                    exceed expectations. With 10+ years in retail and customer relations. I feel that team building, and collaboration is key and my main focus.
+                    exceed expectations. With 10+ years in retail and customer relations. I feel that team building, and collaboration is key and my main focus. I love solving problems and using those solutions to create something from nothing.
                     
                 </h3>
                 </div>
