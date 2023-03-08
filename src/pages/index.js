@@ -21,25 +21,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="my-96 p-1 overflow-hidden">
+        <div className="mt-72 mb-24 p-1 overflow-hidden">
           <m.h1 
             animate={{ y: 0 }}
             initial={{ y: "100%" }} 
             transition={{ delay: 0.5, duration: 0.5 }}
             className="text-6xl text-center lg:text-right lg:text-9xl">Jordan McLean</m.h1>
         </div>
-        <div className="flex justify-between">
+        <div className=" flex justify-evenly">
           <div>
-            {/* <h2>design</h2>
-            <h2>Company</h2>
-            <h2>2022</h2> */}
+          <img className='object-contain h-96 w-96' src='profilephoto.jpg' />
           </div>
           <div>
             <h3> Hi, I'm Jordan McLean, a full stack software engineer!</h3> 
             <h3> I'm New York based, highly motivated, and striving to exceed expectations.</h3>
             <h3>With 10+ years in retail and customer relations, </h3>
-             <h3>I feel that team building, and collaboration is key and my main focus.</h3>
-             <h3> I love solving problems and using those solutions to create something from nothing.</h3>
+            <h3>I feel that team building, and collaboration is key and my main focus.</h3>
+            <h3> I love solving problems and using those solutions to create something from nothing.</h3>
           </div>
         </div>
         
