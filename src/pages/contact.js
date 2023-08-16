@@ -24,10 +24,18 @@ export default function Contact(){
                     <m.ul className='flex gap-10' variants={container} initial='hidden' animate='show'>
                         <div className="overflow-hidden">
                             <m.li variants={item} className="pb-2"> 
-                                <a href="https://www.linkedin.com/in/jmclean115/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />LinkedIn </a></m.li>
+                                <a href="https://www.linkedin.com/in/jmclean115/">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
+                                    LinkedIn 
+                                    </a>
+                                    </m.li>
                         </div>
                         <div className="overflow-hidden">
-                            <m.li variants={item}className="pb-2"><a  href="https://github.com/JordyAM"><img className= 'git-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" /></a></m.li>
+                            <m.li variants={item}className="pb-2">
+                                <a href="https://github.com/JordyAM">
+                                    <img className= 'git-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> GitHub 
+                                </a>
+                            </m.li>
                         </div>
                     </m.ul>
                 </div>
